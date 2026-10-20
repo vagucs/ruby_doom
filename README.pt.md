@@ -81,6 +81,8 @@ run.bat -iwad ..\DOOM1.WAD
 
 `-iwad` escolhe o arquivo. Um caminho solto terminado em `.wad` também serve. `-warp` pula o título e abre o mapa. `-fps` mostra os quadros por segundo no canto superior direito. F11 liga e desliga esse contador. A busca começa em `DOOMWADDIR` ou `DOOMWADPATH`, e segue por esta pasta e pelas pastas acima. `lib/SDL2.dll` é a biblioteca de 64 bits que a gem `ffi` carrega.
 
+Nesta máquina, a mesma cena ficou em **40 FPS** com YJIT e **17 FPS** sem ele. O `run.bat` abre o Ruby com `--yjit`.
+
 ---
 
 ## Teclas
